@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:myapp/base_page.dart';
 
-void main() {
+void main() async {
+  await WidgetsFlutterBinding.ensureInitialized();
   runApp(const MyApp());
 }
 
